@@ -4,5 +4,8 @@
 //2 write the Function that will happen when we do the thing
 
 const moveDodgerLeft = () => {
+  //get the dodger 
+  const dodger = document.getElementById('dodger')
+  //change the layout/position of dodger - need some css changes
   
 }
