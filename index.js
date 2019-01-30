@@ -7,7 +7,8 @@ const moveDodgerLeft = () => {
   //get the dodger 
   const dodger = document.getElementById('dodger')
   //change the layout/position of dodger - need some css changes
-  console.log(dodger.style.left)
+const currentLeft = dodger.style.left //'180px'
+currentLeft.replace('px', '')
 }
 
 const moveDodgerRight = () => {
