@@ -22,6 +22,7 @@ const moveDodgerRight = () => {
   dodger.style.left = currentRightNumber + 5 + 'px' //'181px'
 }
 
+
 //dgoing to figure out do we move dodger left or move dodger right
 const moveDodgerHelper = (event) => {
   if (event.keyCode === 37){
