@@ -20,10 +20,11 @@ const moveDodgerRight = () => {
   //change the layout/position of dodger - need some css changes
   const currentRight = dodger.style.left //'180px'
   let currentRightNumber = currentRight.replace('px', '')//'180'
-  currentRightNumber = parseInt(currentRightNumber, 10)//180// 
+  currentRightNumber = parseInt(currentRightNumber, 10)//180//
+  if (currentRightNumber <360){
   dodger.style.left = currentRightNumber + 5 + 'px' //'181px'
+  }
 }
-
 
 //dgoing to figure out do we move dodger left or move dodger right
 const moveDodgerHelper = (event) => {
