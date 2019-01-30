@@ -19,7 +19,7 @@ const moveDodgerRight = () => {
   const currentRight = dodger.style.left //'180px'
   let currentRightNumber = currentRight.replace('px', '')//'180'
   currentRightNumber = parseInt(currentRightNumber, 10)//180// 
-  dodger.style.left = currentRightNumber + 1 + 'px' //'181px'
+  dodger.style.left = currentRightNumber + 5 + 'px' //'181px'
 }
 
 //dgoing to figure out do we move dodger left or move dodger right
