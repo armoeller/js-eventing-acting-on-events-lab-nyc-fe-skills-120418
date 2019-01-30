@@ -10,4 +10,8 @@ const moveDodgerLeft = () => {
   console.log(dodger.style.left)
 }
 
-document.addEventListener
+const moveDodgerHelper = (event) => {
+}
+
+//3 add event listener
+document.addEventListener('keydown', moveDodgerHelper )
