@@ -14,6 +14,5 @@ const moveDodgerLeft = () => {
 const moveDodgerHelper = (event) => {
 }
 
-
 //3 add event listener
 document.addEventListener('keydown', moveDodgerHelper)
